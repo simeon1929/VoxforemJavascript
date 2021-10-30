@@ -23,3 +23,10 @@ function login (username, password){
 let funResult = login('simeon', '12')
 
 console.log(funResult);
+
+
+localStorage.setItem('UserName', 'Simeon')
+localStorage.setItem('UserName', 'Beulah')
+localStorage.setItem('UserName', 'Eavnia')
+
+console.log(localStorage.getItem('Evania'));
